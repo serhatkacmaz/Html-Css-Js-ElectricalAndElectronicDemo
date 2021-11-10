@@ -124,3 +124,14 @@ footer a {
     width: auto;
     margin: 50px 0px 50px 0px;
 }
+
+#mission_vision {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+#mission_vision > p {
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
