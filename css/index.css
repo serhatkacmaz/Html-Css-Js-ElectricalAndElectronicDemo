@@ -113,5 +113,14 @@ footer > * {
 footer a {
     margin-left: 10px;
 }
-
 /* header and footer end */
+
+.body {
+    border : 3px outset;
+    border-color: blue;
+    background-color: burlywood;
+    border-width: 1px;
+    height: 750px;
+    width: auto;
+    margin: 50px 0px 50px 0px;
+}
