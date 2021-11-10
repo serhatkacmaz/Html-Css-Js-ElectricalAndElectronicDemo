@@ -48,6 +48,7 @@ header {
 #menu  {
     padding: 0px;
     margin: 0px;
+    text-align: center;
     /* background-color: tomato; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -61,7 +62,7 @@ header {
 #menu ul li {
     display: inline-block;
     top: 20px;
-    left: 30%;
+  
     position: relative;
 }
 
