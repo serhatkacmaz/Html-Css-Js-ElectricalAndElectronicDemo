@@ -1,6 +1,5 @@
 
 /* slider start */
-
 .slider-previous,
         .slider-next {
             width: 50px;
@@ -9,10 +8,9 @@
         }
 
         
-/* slider end */
-
-/* slider-container start*/
 .slider-container {
+    margin: 3%;
+    text-align: center;
     width: 900px;
     display: grid;
     grid-template-columns: 150px 500px 150px;
@@ -33,9 +31,10 @@
         grid-template-rows: 150px, 150px;
     }
 }
-/* slider-container end */
+/* slider end */
 
-/* header and footer start */
+
+/* header start */
 header {
     border-width: 1px; 
     border: 3px outset; 
@@ -93,8 +92,10 @@ header {
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+/* header end */
 
 
+/* Footer start */
 footer {
     text-align: center;
     padding: 3px;
@@ -113,14 +114,15 @@ footer > * {
 footer a {
     margin-left: 10px;
 }
-/* header and footer end */
+/* footer end */
+
 
 .body {
     border : 3px outset;
     border-color: blue;
     background-color: burlywood;
     border-width: 1px;
-    height: 750px;
+    height: auto;
     width: auto;
     margin: 50px 0px 50px 0px;
 }
