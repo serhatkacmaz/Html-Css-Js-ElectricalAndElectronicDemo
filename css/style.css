@@ -8,6 +8,8 @@ header {
     background-color: #1b60b5;
     padding: 1px;
     border-bottom: 3px solid white;
+    position: sticky;
+    top: 0;
 }
 
 #menu  {
@@ -37,7 +39,7 @@ header {
 }
 
 #menu ul li a:hover {
-    color:rgb(26, 171, 207);
+    color:rgb(42, 248, 221);
 }
 
 .dropdown-menu {
@@ -88,8 +90,8 @@ footer a {
     /* background-color: burlywood; */
     height: auto;
     width: auto;
-    margin: 50px 0px 50px 0px;
-    border-radius: 20px;
+    margin: 50px auto;
+    /* border-radius: 20px; */
 }
 
 body {
