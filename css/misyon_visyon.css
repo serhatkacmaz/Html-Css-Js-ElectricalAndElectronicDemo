@@ -1,11 +1,32 @@
-
 #mission_vision {
-    margin-top: 0px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    width: auto;
+    margin: 30px auto;
 }
 
-#mission_vision > p {
+#mission_vision  p {
     font-size: 17px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    padding-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+#mission_vision h1,h2,h3 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mission_vision article {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width:900px) {
+    #mission_vision article {
+        flex-direction: column;
+    }
+
 }
