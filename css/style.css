@@ -1,16 +1,16 @@
-
 /* header start */
+
 header {
     /* border: 1px outset #003366; */
     /* border-color: red;  */
-    height: auto; 
+    height: auto;
     width: auto;
     background-color: #1b60b5;
     padding: 1px;
     border-bottom: 3px solid white;
 }
 
-#menu  {
+#menu {
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -37,7 +37,7 @@ header {
 }
 
 #menu ul li a:hover {
-    color:rgb(26, 171, 207);
+    color: rgb(26, 171, 207);
 }
 
 .dropdown-menu {
@@ -54,13 +54,16 @@ header {
     padding: 8px 16px;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
     display: block;
 }
+
+
 /* header end */
 
 
 /* Footer start */
+
 footer {
     text-align: center;
     padding: 10px;
@@ -69,18 +72,20 @@ footer {
     border: 3px outset; 
     border-color: red;  */
     width: auto;
-    height: auto; 
+    height: auto;
     background-color: #1b60b5;
 }
-footer > * {
+
+footer>* {
     color: white;
 }
 
 footer a {
     margin-left: 10px;
 }
-/* footer end */
 
+
+/* footer end */
 
 .body {
     /* border : 1px outset; */
@@ -97,7 +102,6 @@ body {
     background: #9bc5de;
 }
 
-
 html {
     scroll-behavior: smooth;
-  }
+}
