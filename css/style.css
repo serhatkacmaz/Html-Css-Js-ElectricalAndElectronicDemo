@@ -1,13 +1,13 @@
 
 /* header start */
 header {
-    border-width: 1px; 
-    border: 3px outset; 
-    border-color: red; 
-    height: 100px; 
+    /* border: 1px outset #003366; */
+    /* border-color: red;  */
+    height: auto; 
     width: auto;
-    background-color: #003366;
-    border-radius: 20px;
+    background-color: #1b60b5;
+    padding: 1px;
+    border-bottom: 3px solid white;
 }
 
 #menu  {
@@ -41,7 +41,7 @@ header {
 }
 
 .dropdown-menu {
-    background-color: #003366;
+    background-color: #1b60b5;
     position: absolute;
     padding: 15px 0px 10px 0px;
     margin-left: -20px;
@@ -64,13 +64,13 @@ header {
 footer {
     text-align: center;
     padding: 10px;
-    border-width: 1px; 
+    border-top: 3px solid white;
+    /* border-width: 1px; 
     border: 3px outset; 
-    border-color: red; 
+    border-color: red;  */
     width: auto;
     height: auto; 
-    background-color: #003366;
-    border-radius: 20px;
+    background-color: #1b60b5;
 }
 footer > * {
     color: white;
@@ -83,18 +83,21 @@ footer a {
 
 
 .body {
-    border : 3px outset;
+    /* border : 1px outset; */
     border-color: blue;
-    background-color: burlywood;
-    border-width: 1px;
+    /* background-color: burlywood; */
     height: auto;
     width: auto;
     margin: 50px 0px 50px 0px;
     border-radius: 20px;
 }
 
+body {
+    margin: 0px;
+    background: #9bc5de;
+}
+
+
 html {
     scroll-behavior: smooth;
   }
-  
-  
