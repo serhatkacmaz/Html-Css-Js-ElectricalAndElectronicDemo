@@ -24,6 +24,7 @@ section.icerik p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 16px;
+    text-align: justify;
 }
 
 section.icerik div.yonetici-box {
@@ -41,16 +42,30 @@ section.icerik div.yonetici-box > img {
 
 #sides {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    margin: auto;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: "left right";
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #left {
-    grid-column: 2;
+    grid-area: left;
     /* border: 2px solid red; */
 }
 
 #right {
-    grid-column: 3;
+    grid-area: right;
     /* border: 2px solid blue; */
+}
+
+
+/* 900 pikselden az olursa */
+@media(max-width:900px) {
+    
+    #sides {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas : "left" "right";
+    }
+
 }
