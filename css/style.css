@@ -76,6 +76,9 @@ footer {
     width: auto;
     height: auto;
     background-color: #1b60b5;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    align-items: center;
 }
 
 footer>* {
@@ -106,4 +109,39 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+.infoFooterDiv img {
+    margin: 5px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 1%;
+}
+
+.infoFooterDiv div {
+    display: flex;
+    align-items: center;
+}
+
+.infoFooterDiv p {
+    color: white;
+}
+
+.infoFooterDiv a {
+    color: white;
+    text-decoration: none;
+}
+
+.infoFooterDiv a:hover {
+    color: blue;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: blue;
 }
