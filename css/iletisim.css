@@ -18,7 +18,7 @@
 
 .box {
     margin: 4% 3% 4% 3%;
-    position: relative;
+    position: static;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 5fr 4fr;
@@ -34,7 +34,7 @@
 }
 
 .formDiv {
-    position: relative;
+    position: static;
     width: 100%;
 }
 
@@ -61,6 +61,21 @@
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
+}
+
+.radioButton span {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.radioButton {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .inputDiv input {
@@ -137,6 +152,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas: "form" "info" "map";
+        position: static;
     }
     .formDiv .rowType1 {
         display: flex;
