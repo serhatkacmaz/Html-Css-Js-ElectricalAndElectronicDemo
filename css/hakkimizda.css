@@ -1,0 +1,56 @@
+section.icerik {
+    width: auto;
+    position: static;
+    margin: 50px auto;
+}
+
+section.icerik h1,h2,h3 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+section.icerik h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+section.icerik h3 {
+    margin-top: 0px;
+}
+
+section.icerik p {
+    margin: 20px auto;
+    line-height: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+section.icerik div.yonetici-box {
+    width: auto;
+    height: auto;
+    position: static;
+    margin: 50px auto;
+}
+
+
+section.icerik div.yonetici-box > img {
+    border-bottom: 2px solid #000;
+}
+
+
+#sides {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin: auto;
+}
+
+#left {
+    grid-column: 2;
+    /* border: 2px solid red; */
+}
+
+#right {
+    grid-column: 3;
+    /* border: 2px solid blue; */
+}
