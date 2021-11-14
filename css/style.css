@@ -36,10 +36,11 @@ header {
     text-decoration: none;
     color: white;
     margin-right: 20px;
+    transition: all, ease-in, 0.4s;
 }
 
 #menu ul li a:hover {
-    color: rgb(42, 248, 221);
+    color: #333;
 }
 
 .dropdown-menu {
@@ -87,6 +88,7 @@ footer>* {
 
 footer a {
     margin-left: 10px;
+    transition: all, ease-in, 0.4s;
 }
 
 
@@ -134,7 +136,7 @@ html {
 }
 
 .infoFooterDiv a:hover {
-    color: blue;
+    color: #333;
 }
 
 footer a {
@@ -143,5 +145,5 @@ footer a {
 }
 
 footer a:hover {
-    color: blue;
+    color: #333;
 }

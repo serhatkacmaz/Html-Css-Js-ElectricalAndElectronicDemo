@@ -5,6 +5,11 @@
     width: 50px;
     height: 50px;
     padding-top: 80%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.inputButton:hover {
+    transform: scale(1.5);
 }
 
 .slider-container {
