@@ -96,7 +96,7 @@
 }
 
 .inputDiv input[type="submit"] {
-    background-color: papayawhip;
+    background-color: rgb(22, 119, 158);
     color: #000;
     font-size: 12pt;
     max-width: 120px;
@@ -129,10 +129,11 @@
 .infoDiv a {
     color: white;
     text-decoration: none;
+    transition: all, ease-in, 0.4s;
 }
 
 .infoDiv a:hover {
-    color: blue;
+    color: #333;
 }
 
 .map {
