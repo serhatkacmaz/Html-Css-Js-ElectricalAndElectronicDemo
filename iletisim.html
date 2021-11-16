@@ -18,6 +18,7 @@
     <header>
 
         <section id='menu'>
+            <a href="index.html"><img class="systemLogo" src="image/systemLogo.jpg"></a>
             <ul>
                 <li><a href="index.html">Anasayfa</a></li>
                 <li><a href="hakkimizda.html">Hakkımızda</a></li>
@@ -29,11 +30,11 @@
                         <a href="#">Elektronik Kart</a>
                     </div>
                 </li>
-                <li class="dropdown"><a href="#">Birimlerimiz</a>
-                    <div class="dropdown-menu">
-                        <a href="#">Birim 1</a>
-                        <a href="#">Birim 2</a>
-                        <a href="#">Birim 3</a>
+                <li class="dropdown"><a href="">Birimlerimiz</a>
+                    <div id="drp2" class="dropdown-menu">
+                        <a href="#">Birim1 </a>
+                        <a href="#">Birim2 </a>
+                        <a href="#">Birim3 </a>
                     </div>
                 </li>
                 <li><a href="iletisim.html">İletişim</a></li>
@@ -48,7 +49,7 @@
 
         <div class="box">
             <!-- Form -->
-            <div class="concat form">
+            <div class="contact form">
                 <h3>Şikayet / Öneri</h3>
                 <form>
                     <div class="formDiv">
@@ -57,12 +58,12 @@
                             <!-- isim -->
                             <div class="inputDiv">
                                 <span>İsim</span>
-                                <input type="text" placeholder="Hardal" required>
+                                <input class="inputt" type="text" required>
                             </div>
                             <!-- Soyisim -->
                             <div class="inputDiv">
                                 <span>Soyisim</span>
-                                <input type="text" placeholder="Adi" required>
+                                <input class="inputt" type="text" required>
                             </div>
                         </div>
 
@@ -70,12 +71,12 @@
                             <!-- Mail -->
                             <div class="inputDiv">
                                 <span>Mail Adresi</span>
-                                <input type="email" placeholder="hardal@gmail.com" required>
+                                <input class="inputt" type="email" required>
                             </div>
                             <!-- Telefon -->
                             <div class="inputDiv">
                                 <span>Telefon Numarası</span>
-                                <input type="tel" placeholder="+90 055555555" pattern="[0-9]{10}" maxlength="10" required>
+                                <input class="inputt" type="tel" pattern="[0-9]{10}" maxlength="10" required>
                             </div>
                         </div>
 
@@ -95,7 +96,7 @@
                             <!-- Mesaj -->
                             <div class="inputDiv">
                                 <span>Mesaj</span>
-                                <textarea placeholder="Bir şeyler yazın..." required></textarea>
+                                <textarea class="inputt" placeholder="" required></textarea>
                             </div>
                         </div>
 
@@ -110,7 +111,7 @@
             </div>
 
             <!-- info Box -->
-            <div class="concat info ">
+            <div class="contact info ">
                 <h3>İletişim Bilgileri</h3>
                 <div class="infoDiv">
                     <div>
@@ -127,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="concat map ">
+            <div class="contact map ">
                 <!-- harita -->
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.12727612999!2d28.9736914156623!3d41.02247132649977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9388a4d074f%3A0x4f3b70cc71985076!2zS2FyYWvDtnkgcGFzYWrEsQ!5e0!3m2!1str!2str!4v1636571966677!5m2!1str!2str"
@@ -139,16 +140,33 @@
 
     <!-- footer start -->
     <footer>
+
         <!-- yapanlar -->
         <div class="authorDiv">
             <div>
-                <span>Barış Adıgüzel</span><br>
-                <span>Serhat Kaçmaz</span><br>
-                <span>Bu web sitesini yukarıda ismi olan kişiler tarafından özenle yapılmıştır.<br><br>Copyright © 2021 - 2022 Elektronik Sitesi. <br>Her hakkı saklıdır.
-                </span>
+                <span>Barış Adıgüzel 181307059@kocaeli.edu.tr</span><br><br>
+                <span>Serhat Kaçmaz  181307036@kocaeli.edu.tr</span>
             </div>
 
         </div>
+
+        <!-- Adres -->
+        <!-- <a href="#">En üste çık</a> -->
+        <div class="infoFooterDiv">
+            <div>
+                <img src="image/phone_logo_white.png ">
+                <a href="tel:+905417256776 ">+90 541 72 56 776</a>
+            </div>
+            <div>
+                <img src="image/mail_logo_white.png ">
+                <a href="mailto:programlama41@gmail.com ">programlama41@gmail.com</a>
+            </div>
+            <div>
+                <img src="image/location_logo_white.png">
+                <p>&ensp;Kemankeş Karamustafa Paşa, Havyar Sk. no 5, 34425 Beyoğlu/İstanbul</p>
+            </div>
+        </div>
+
         <!-- sosyal medya hesaplarımız -->
         <nav>
             <a href="#">En üste Çık</a><br><br><br>
@@ -156,22 +174,8 @@
             <a href=""><img src="image/twitter-logo.png" alt="Twitter" /></a>
             <a href=""><img src="image/whatsapp-logo.png" alt="Whatsapp" /></a>
         </nav>
-        <!-- Adres -->
-        <!-- <a href="#">En üste çık</a> -->
-        <div class="infoFooterDiv">
-            <div>
-                <img src="image/location_logo_white.png">
-                <p>&ensp;Kemankeş Karamustafa Paşa, Havyar Sk. no 5, 34425 Beyoğlu/İstanbul</p>
-            </div>
-            <div>
-                <img src="image/mail_logo_white.png ">
-                <a href="mailto:programlama41@gmail.com ">programlama41@gmail.com</a>
-            </div>
-            <div>
-                <img src="image/phone_logo_white.png ">
-                <a href="tel:+905417256776 ">+90 541 72 56 776</a>
-            </div>
-        </div>
+
+
     </footer>
     <!-- footer end -->
 

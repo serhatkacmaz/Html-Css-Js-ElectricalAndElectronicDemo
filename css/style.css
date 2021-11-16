@@ -5,7 +5,7 @@ header {
     /* border-color: red;  */
     height: auto;
     width: auto;
-    background-color: #1b60b5;
+    background-color: #0CB4E3;
     padding: 1px;
     border-bottom: 3px solid white;
     position: sticky;
@@ -23,10 +23,11 @@ header {
 #menu ul {
     display: block;
     /* background-color: #303030; */
-    height: 9vh;
+    height: 7vh;
 }
 
 #menu ul li {
+    margin-left: 10px;
     display: inline-block;
     top: 20px;
     position: relative;
@@ -36,6 +37,8 @@ header {
     text-decoration: none;
     color: white;
     margin-right: 20px;
+    font-size: 20px;
+    padding: 5px;
     transition: all, ease-in, 0.4s;
 }
 
@@ -44,11 +47,16 @@ header {
 }
 
 .dropdown-menu {
-    background-color: #1b60b5;
+    background-color: #0CB4E3;
     position: absolute;
     padding: 15px 0px 10px 0px;
     margin-left: -20px;
     display: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#drp2 {
+    width: 150px;
 }
 
 .dropdown-menu a {
@@ -70,13 +78,12 @@ header {
 footer {
     text-align: center;
     padding: 10px;
-    border-top: 3px solid white;
     /* border-width: 1px; 
     border: 3px outset; 
     border-color: red;  */
     width: auto;
-    height: auto;
-    background-color: #1b60b5;
+    height: 14vh;
+    background-color: #0CB4E3;
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     align-items: center;
@@ -96,7 +103,6 @@ footer a {
 
 .body {
     /* border : 1px outset; */
-    border-color: blue;
     /* background-color: burlywood; */
     height: auto;
     width: auto;
@@ -106,7 +112,7 @@ footer a {
 
 body {
     margin: 0px;
-    background: #9bc5de;
+    background: white;
 }
 
 html {
@@ -116,12 +122,13 @@ html {
 .infoFooterDiv img {
     margin: 5px;
     padding: 5px;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin: 1%;
 }
 
 .infoFooterDiv div {
+    margin-left: 15%;
     display: flex;
     align-items: center;
 }
@@ -146,4 +153,16 @@ footer a {
 
 footer a:hover {
     color: #333;
+}
+
+.authorDiv {
+    padding: 5px;
+}
+
+.systemLogo {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 250px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
