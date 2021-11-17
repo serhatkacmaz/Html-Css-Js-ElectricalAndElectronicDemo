@@ -1,5 +1,9 @@
 /* header start */
 
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header {
     /* border: 1px outset #003366; */
     /* border-color: red;  */

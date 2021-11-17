@@ -1,0 +1,92 @@
+/* duyurular start*/
+
+.duyurular {
+    position: static;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.altSatir {
+    flex-basis: 100%;
+    height: 0%;
+}
+
+.duyurular h4 {
+    margin: 8px;
+    font-size: 20px;
+}
+
+.duyurular .duyuru #timeline {
+    font-size: 16px;
+    letter-spacing: 0;
+    background-color: #8cc2d3;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.duyurular .duyuru {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: 120px;
+    margin: 5px;
+    box-shadow: 4px 2px 5px 2px #bbb;
+    justify-content: center;
+}
+
+.duyurular .duyuru:hover {
+    cursor: pointer;
+    border: 1px solid #0CB4E3;
+}
+
+.duyurular .tümduyuruLink {
+    padding: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0CB4E3;
+}
+
+.duyurular .tümduyuruLink:hover {
+    color: #8cc2d3;
+}
+
+
+/* duyurular end */
+
+.duyurular .row button {
+    position: absolute;
+    display: block;
+    float: left;
+    right: 40px;
+    bottom: -20px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.duyurular .row button:hover,
+.duyurular .row a:hover {
+    color: #0CB4E3;
+    cursor: pointer;
+}
+
+.duyurular .row a {
+    position: absolute;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #242021;
+    float: left;
+    right: 150px;
+    bottom: -20px;
+    font-weight: bold;
+}
