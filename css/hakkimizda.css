@@ -20,6 +20,22 @@ section.icerik h3 {
     margin-top: 0px;
 }
 
+.icerik p.sozler {
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom:5px;
+}
+
+.icerik p.author {
+    margin-top:0px; 
+    padding-right: 20%; 
+    text-align:right; 
+    font-size: 16px; 
+    font-weight: 500;
+}
+
+
 section.icerik p {
     margin: 5%;
     line-height: 25px;
@@ -36,8 +52,9 @@ section.icerik div.yonetici-box {
     margin: 50px auto;
 }
 
-section.icerik div.yonetici-box>img {
-    border-bottom: 2px solid #000;
+section.icerik div.yonetici-box > img {
+    border: 1px solid #000;
+    border-radius: 100%;
 }
 
 #sides {
@@ -57,7 +74,6 @@ section.icerik div.yonetici-box>img {
     grid-area: right;
     /* border: 2px solid blue; */
 }
-
 
 /* 900 pikselden az olursa */
 
