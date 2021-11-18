@@ -4,15 +4,10 @@
 }
 
 #mission_vision  p {
-    font-size: 17px;
+    font-size: 19px;
     padding-left: 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: justify;
-}
-
-#mission_vision h1,h2,h3 {
-    text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 #mission_vision article {
