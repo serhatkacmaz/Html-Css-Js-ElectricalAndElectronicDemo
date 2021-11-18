@@ -1,0 +1,36 @@
+.content {
+    margin: 50px auto;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+section.content > p { 
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+section.content h1,h2,h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px auto;
+}
+
+.content a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0CB4E3;
+    transition: all ease-in 0.4s;
+}
+
+.content a:hover {
+    color: rgb(0, 76, 241);
+}
+
+.content img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

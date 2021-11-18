@@ -1,0 +1,23 @@
+.content {
+    margin: 50px auto;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+section.content  p { 
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+section.content h1,h2,h3 {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px auto;
+}
+
+.form {
+    margin: 30px auto;
+}

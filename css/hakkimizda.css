@@ -4,15 +4,13 @@ section.icerik {
     margin: 50px auto;
 }
 
-section.icerik h1,
-h2,
-h3 {
+section.icerik h1,h2,h3 {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 section.icerik h2 {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 5px;
 }
 
@@ -24,7 +22,8 @@ section.icerik h3 {
     text-align: center; 
     font-size: 18px;
     font-weight: 700;
-    margin-bottom:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .icerik p.author {
@@ -50,11 +49,17 @@ section.icerik div.yonetici-box {
     height: auto;
     position: static;
     margin: 50px auto;
+    justify-content: center;
 }
 
 section.icerik div.yonetici-box > img {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 100%;
+    width: 65%;
+    height: auto;
+    margin-left : auto;
+    margin-right: auto;
+    display: block;
 }
 
 #sides {
@@ -67,12 +72,10 @@ section.icerik div.yonetici-box > img {
 
 #left {
     grid-area: left;
-    /* border: 2px solid red; */
 }
 
 #right {
     grid-area: right;
-    /* border: 2px solid blue; */
 }
 
 /* 900 pikselden az olursa */
