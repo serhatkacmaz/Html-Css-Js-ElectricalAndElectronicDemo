@@ -1,7 +1,7 @@
 section {
-    margin: 110px auto;
     display: flex;
     justify-content: space-evenly;
+    margin: 110px auto;
     flex-wrap: wrap;
     position: static;
 }
