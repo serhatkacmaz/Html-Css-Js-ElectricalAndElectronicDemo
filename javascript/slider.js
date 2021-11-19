@@ -1,38 +1,38 @@
 var slider_products = [{
         image: 'image/nodemcu.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'cards/nodemcu_esp8266.html'
     },
     {
         image: 'image/arduinoUno.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'cards/ardunio_uno.html'
     },
     {
         image: 'image/raspberryPi.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'cards/raspberry_pi.html'
     },
     {
         image: 'image/servo-motor.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'motors/serve_motor.html'
     },
     {
         image: 'image/dc-motor.png',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'motors/dc_motor.html'
     },
     {
         image: 'image/fircasiz-motor.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'motors/fircasiz_motor.html'
     },
     {
         image: 'image/bluetooth-hc06.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'sensors/bluetooth.html'
     },
     {
         image: 'image/arduino-hc-sr04-mesafe-sensor.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'sensors/hc-sr04_sensor.html'
     },
     {
         image: 'image/hc-sr501-pir-sensoru.jpg',
-        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+        link: 'sensors/pir_sensor.html'
     },
 ];
 
