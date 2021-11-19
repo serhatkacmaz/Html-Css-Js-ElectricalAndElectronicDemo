@@ -93,7 +93,7 @@ footer {
     align-items: center;
 }
 
-footer > * {
+footer>* {
     color: white;
 }
 
@@ -167,6 +167,6 @@ footer a:hover {
     width: 140px;
     height: 140px;
     position: absolute;
-    left: 250px;
+    left: 7%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
