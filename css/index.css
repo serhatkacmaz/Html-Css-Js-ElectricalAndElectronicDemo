@@ -13,6 +13,7 @@
 }
 
 .slider-container {
+    margin-top: 5%;
     margin-left: 3%;
     text-align: center;
     width: auto;
@@ -23,7 +24,7 @@
 }
 
 .slider-container img {
-    width: 1000px;
+    width: auto;
     height: 500px;
 }
 
@@ -31,24 +32,6 @@
     padding: 30%;
     align-items: center;
     text-align: center;
-}
-
-@media(max-width:1150px) {
-    .slider-container img {
-        width: 800px;
-    }
-}
-
-@media(max-width:950px) {
-    .slider-container img {
-        width: 500px;
-    }
-}
-
-@media(max-width:650px) {
-    .slider-container img {
-        width: 350px;
-    }
 }
 
 
