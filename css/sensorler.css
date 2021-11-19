@@ -1,4 +1,83 @@
 .content {
-    background-color: red;
-    font-size: large;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: static;
 }
+
+
+.altSatir {
+    flex-basis: 100%;
+    height: 0%;
+}
+
+
+/* IMAGE OVERLAY TEXT EKLEME -- START */
+
+.image {
+    position: relative;
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .35);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all ease-in 0.3s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover .image {
+    z-index: 1;
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+    cursor: default;
+}
+
+.image_description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+    cursor: default;
+}
+
+.image_description a {
+    text-decoration: none;
+    color: #fff;
+    transition: all ease-in .4s;
+}
+
+.image_description a:hover {
+    color: #0CB4E3;
+}
+
+
+/* IMAGE OVERLAY TEXT EKLEME -- END */
