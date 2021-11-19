@@ -65,13 +65,69 @@
             <input type="image" class="inputButton slider-next" src="image/nextArrow.png"></button>
         </div>
 
+        <!-- popup duyuru -->
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru1()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-2">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru2()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-3">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru3()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-4">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru4()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-5">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru5()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-6">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru6()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+
         <!-- duyurular -->
         <div class="duyurular">
             <h2>Duyurular</h2>
             <!-- duyuru 1-2 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru1()" class="duyuru">
                     <h4>Duyuru eklendi1</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -82,7 +138,7 @@
 
             </div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru2()" class="duyuru">
                     <h4>Duyuru eklendi2</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -93,7 +149,7 @@
             <!-- duyuru 3-4 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru3()" class="duyuru">
                     <h4>Duyuru eklendi3</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -102,7 +158,7 @@
             </div>
 
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru4()" class="duyuru">
                     <h4>Duyuru eklendi4</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -113,7 +169,7 @@
             <!-- duyuru 5-6 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru5()" class="duyuru">
                     <h4>Duyuru eklendi5</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -122,7 +178,7 @@
             </div>
 
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru6()" class="duyuru">
                     <h4>Duyuru eklendi6</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -134,7 +190,7 @@
             <div class="altSatir"></div>
             <div class="altSatir"></div>
             <a class="tümduyuruLink" href="duyurular.html">Tüm Duyurular...</a>
-    
+
         </div>
 
     </div>
@@ -183,6 +239,7 @@
 
     <!-- js -->
     <script src="javascript/slider.js"></script>
+    <script src="javascript/duyurular.js"></script>
 
 </body>
 
