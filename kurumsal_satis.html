@@ -8,13 +8,14 @@
     <link rel="icon" type="image/png" href="image/favicon.png" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kurumsal_satis.css">
+    <link rel="stylesheet" href="css/duyurular.css">
     <title>BARSER | Kurumsal Satış</title>
 
 
 </head>
 
 <body>
-    
+
     <!-- header -->
     <header>
 
@@ -47,37 +48,103 @@
 
     <!--- body  -->
     <div class="body">
-    
-    <section class="content">
 
-        <div>
-            <h2>Kurumsal Ayrıcalıklar</h2>
-            <p>
-                <ul>
-                    <li>En güncel eğitim konseptlerine sahip setler ve ürünler,</li>
-                    <li>Tüm süreç boyunca yanınızda olan uzman kadro,</li>
-                    <li>Kurumunuza özel set içerikleri, paketleme ve eğitim içerikleri,</li>
-                    <li>Öğretmenlerinize ücretsiz derse hazırlık eğitimi,</li>
-                    <li>Teknik destek ve güvenilir servis,</li>
-                    <li>Rekabetçi fiyatlar.</li>
-                </ul>
-            </p>
-        </div>
-        
-        <div class="form">
-            <form>
-                <label for="kurum_tur">Kurum Türü &ensp;</label>
-                <select id="kurum_tur" name="kurum_tur" required>
-                    <option>Eğitim Kurumu</option>
-                    <option>Devlet Kurumu</option>
-                    <option>Ticari Firma</option>
-                    <option>Şahıs</option>
+        <section class="content">
 
-                </select>
-            </form>
-        </div>
+            <div>
+                <h2>Kurumsal Ayrıcalıklar</h2>
+                <p>
+                    <ul>
+                        <li>En güncel eğitim konseptlerine sahip setler ve ürünler,</li>
+                        <li>Tüm süreç boyunca yanınızda olan uzman kadro,</li>
+                        <li>Kurumunuza özel set içerikleri, paketleme ve eğitim içerikleri,</li>
+                        <li>Öğretmenlerinize ücretsiz derse hazırlık eğitimi,</li>
+                        <li>Teknik destek ve güvenilir servis,</li>
+                        <li>Rekabetçi fiyatlar.</li>
+                    </ul>
+                </p>
+            </div>
 
-    </section>
+            <div class="form">
+                <form>
+                    <div class="formDiv">
+                        <div class="rowType1">
+
+                            <!-- Kurum Türü -->
+                            <div class="inputDiv">
+
+                                <span>Kurum Türü &ensp;</span>
+                                <select id="kurum_tur" name="kurum_tur" required>
+                                    <option>Eğitim Kurumu</option>
+                                    <option>Devlet Kurumu</option>
+                                    <option>Ticari Firma</option>
+                                    <option>Şahıs</option>
+                                </select>
+                            </div>
+
+                            <!-- Ad Soyad -->
+                            <div class="inputDiv">
+                                <span>Ad Soyad</span>
+                                <input type="text" required>
+                            </div>
+                        </div>
+
+                        <div class="rowType1">
+                            <!-- Mail -->
+                            <div class="inputDiv">
+                                <span>Mail Adresi</span>
+                                <input class="inputt" type="email" required>
+                            </div>
+                            <!-- Telefon -->
+                            <div class="inputDiv">
+                                <span>Telefon Numarası</span>
+                                <input class="inputt" type="tel" pattern="[0-9]{10}" maxlength="10" required>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Rıza metni -->
+                        <div class="radioButton">
+                            <div>
+                                <input type="checkbox" name="riza" value="kabul" required/>
+                                <span id="span-link" onclick="popUpSozlesme()">Kişisel Verilerin İşlenmesi Hakkında Açık Rıza Metni'ni ve Ticari İletişim İzni'ni okudum, kabul ediyorum.</span>
+                            </div>
+                        </div>
+
+                        <div class="popup" id="popup-sozlesme">
+                            <div class="overlay"></div>
+                            <div class="content">
+                                <div class="close-btn" onclick="popUpSozlesme()">&times;</div>
+                                <h1>Ticari İletişim İzni</h1>
+                                <p style="text-align: justify;">&ensp;&ensp;&ensp;Mevcut veya ileride güncelleyeceğim kişisel verilerimin, BARSER Elektronik Ticaret A.Ş. (“BARSER”) tarafından; Site Üyeliği kapsamında oluşturulan genel veya bana özel kişiselleştirilmiş kampanyalar, avantajlar,
+                                promosyonlar, reklamlar, bilgilendirmeler, pazarlama faaliyetleri kapsamında güncel iletişim bilgilerim üzerinden bana yönelik ticari iletişim faaliyetlerinde (SMS, e-posta, arama vb.) bulunulabilmesi, ürün ve hizmetlerimizle
+                                ilgili müşteri memnuniyetine yönelik anketlerin, kampanya bilgilerinin iletilmesi amaçlarıyla tarafıma ticari ileti gönderilmesine ve bu amaçla BARSER mobil uygulama ve web sitesi üzerinden her zaman ulaşabileceğim
+                                aydınlatma metninde belirtildiği şekilde kişisel verilerimin işlenmesine onay/izin veriyorum.</p>
+                            </div>
+                        </div>
+
+                        <div class="rowType2">
+                            <!-- Mesaj -->
+                            <div class="inputDiv">
+                                <span>Mesaj</span>
+                                <textarea class="inputt" placeholder="" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="rowType2">
+                            <!-- Onay -->
+                            <div class="inputDiv">
+                                <input type="submit" value="Gönder">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+
+        </section>
 
 
     </div>
@@ -125,7 +192,7 @@
 
 
     <!-- js -->
-    <script src="javascript/slider.js"></script>
+    <script src="javascript/duyurular.js"></script>
 
 </body>
 

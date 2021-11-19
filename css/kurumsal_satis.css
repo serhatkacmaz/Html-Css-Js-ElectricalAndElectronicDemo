@@ -2,22 +2,133 @@
     margin: 50px auto;
     padding-left: 25%;
     padding-right: 25%;
+    cursor: default;
 }
 
-section.content  p { 
+section.content p {
     line-height: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
+    padding: 0;
 }
 
-section.content h1,h2,h3 {
+section.content h1,
+h2,
+h3 {
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 30px auto;
 }
 
 .form {
-    margin: 30px auto;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
 }
+
+#span-link {
+    font-weight: 600;
+    transition: all ease-out 0.8;
+}
+
+#span-link:hover {
+    color: #0CB4E3;
+    cursor: pointer;
+}
+
+/* form-div start */
+
+.formDiv {
+    position: static;
+    width: 100%;
+}
+
+.formDiv .rowType1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formDiv .rowType2 .inputDiv {
+    width: 100%;
+}
+
+.inputDiv span {
+    /* color: #18b7ff; */
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.radioButton span {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.radioButton {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.inputDiv input {
+    padding: 10px;
+    font-size: 12pt;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.inputDiv select {
+    padding: 10px;
+    font-size: 12pt;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.inputDiv textarea {
+    padding: 10px;
+    font-size: 12pt;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.inputDiv input[type="submit"] {
+    background-color: #0CB4E3;
+    color: #000;
+    font-size: 12pt;
+    border: none;
+    border-radius: 5px;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.inputDiv input[type="submit"]:hover {
+    background-color: #8cc2d3;
+}
+
+.inputDiv ::placeholder {
+    transition-duration: 0.4s;
+    color: #999;
+}
+
+
+/* form-div stop */

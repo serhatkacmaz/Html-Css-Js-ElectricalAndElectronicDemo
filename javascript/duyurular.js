@@ -41,3 +41,7 @@ function duyuru10() {
 function duyuruEkle() {
     document.getElementById("popup-duyuru-ekle").classList.toggle("active");
 }
+
+function popUpSozlesme() {
+    document.getElementById("popup-sozlesme").classList.toggle("active");
+}
