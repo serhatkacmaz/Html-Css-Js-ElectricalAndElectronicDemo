@@ -37,3 +37,7 @@ function duyuru9() {
 function duyuru10() {
     document.getElementById("popup-10").classList.toggle("active");
 }
+
+function popUpSozlesme() {
+    document.getElementById("popup-sozlesme").classList.toggle("active");
+}

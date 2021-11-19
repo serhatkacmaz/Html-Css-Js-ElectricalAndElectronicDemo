@@ -139,9 +139,10 @@
 
 .content p {
     text-align: justify;
-    padding: 40px;
+    /* padding: 40px; */
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 10px;
 }
 
 .popup.active .overlay {
