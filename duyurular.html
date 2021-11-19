@@ -47,14 +47,109 @@
     <!--- body  -->
     <div class="body">
 
+        <!-- popup duyuru -->
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru1()">&times;</div>
+                <h1>Arduino Cephesinden Gelişmeler</h1>
+                <p>&ensp;&ensp;&ensp;Amerika’daki “Maker Faire” etkinliğine Arduino’nun kurucularından Massimo Banzi, Arduino ile ilgili son gelişmeleri paylaştığı bir sunum yaptı. Burada Arduino ile ilgili haberleri öğrendik. Arduino cephesinde önemli gelişmeler
+                    şunlar: – Arduino Tre’nin beta versiyonu çıktı. Arduino Tre üzerine ARM – Cortex A8 tabanlı bir işlemci bulunduruyor. Bu işlemci Beaglebone’daki ile aynı. Yani bu karta Arduino ve Beaglebone karışımı diyebiliriz. – Arduino Zero tanıtıldı.
+                    Arduino Zero da üzerine ARM Cortex M0 tabanlı Atmel ATSAMD21G18 barındırıyor. Üzerindeki bir çip ile JTAG desteği var. Yani Open OCD gibi açık kaynaklı hata ayıklayıcılarla Arduino ile hata ayıklama (debugging) yapmak mümkün hale gelecek.
+                    Massimo Banzi Arduino IDE’ye de hata ayıklama özelliği ekleneceğini söyledi. Görünen o ki zamanla ARM tabanlı Arduino kartlarının sayısı artacak.</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-2">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru2()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-3">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru3()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-4">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru4()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-5">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru5()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-6">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru6()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-7">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru7()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-8">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru8()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-9">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru9()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-10">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuru10()">&times;</div>
+                <h1>Title</h1>
+                <p>Adi Barıllş</p>
+            </div>
+        </div>
+
+
         <!-- duyurular -->
         <div class="duyurular">
             <h2>Duyurular</h2>
             <!-- duyuru 1-2 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
-                    <h4>Duyuru eklendi1</h4>
+                <div onclick="duyuru1()" class="duyuru">
+                    <h4>Arduino Cephesinden Gelişmeler</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
                     <span id="aut">Site Yönetimi</span>
@@ -64,7 +159,7 @@
 
             </div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru2()" class="duyuru">
                     <h4>Duyuru eklendi2</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -75,7 +170,7 @@
             <!-- duyuru 3-4 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru3()" class="duyuru">
                     <h4>Duyuru eklendi3</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -84,7 +179,7 @@
             </div>
 
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru4()" class="duyuru">
                     <h4>Duyuru eklendi4</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -95,7 +190,7 @@
             <!-- duyuru 5-6 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru5()" class="duyuru">
                     <h4>Duyuru eklendi5</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -104,7 +199,7 @@
             </div>
 
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru6()" class="duyuru">
                     <h4>Duyuru eklendi6</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -115,7 +210,7 @@
             <!-- duyuru 7-8 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru7()" class="duyuru">
                     <h4>Duyuru eklendi7</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -124,7 +219,7 @@
             </div>
 
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru8()" class="duyuru">
                     <h4>Duyuru eklendi8</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -135,7 +230,7 @@
             <!-- duyuru 9-10 -->
             <div class="altSatir"></div>
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru9()" class="duyuru">
                     <h4>Duyuru eklendi9</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -144,7 +239,7 @@
             </div>
 
             <div class="row">
-                <div class="duyuru">
+                <div onclick="duyuru10()" class="duyuru">
                     <h4>Duyuru eklendi10</h4>
                     <div class="altSatir"></div>
                     <span id="timeline">12/11/2021</span>
@@ -199,6 +294,8 @@
 
     <!-- js -->
     <script src="javascript/slider.js"></script>
+    <script src="javascript/duyurular.js"></script>
+
 
 </body>
 
