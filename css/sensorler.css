@@ -1,4 +1,4 @@
-.content {
+section {
     margin: 110px auto;
     display: flex;
     justify-content: space-evenly;
@@ -81,3 +81,64 @@
 
 
 /* IMAGE OVERLAY TEXT EKLEME -- END */
+
+/* urun detay start */
+
+.container {
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "cover content";
+}
+
+.cover {
+    grid-area: cover;
+    height: 80vh;
+    background-size: auto 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    grid-area: content;
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    /* bunlar lazım */
+    margin: 110px auto;
+    flex-wrap: wrap;
+    position: static;
+}
+
+.detail-body {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.black-label {
+    text-align: center;
+    width: 80%;
+}
+
+.black-label p {
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 13px;
+    color: gray;
+    width: 70%;
+    text-align: justify;
+}
+
+.title {
+    text-align: center;
+    font-size: 64px;
+}
+
+
+/* urun detay end */
