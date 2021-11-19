@@ -38,6 +38,10 @@ function duyuru10() {
     document.getElementById("popup-10").classList.toggle("active");
 }
 
+function duyuruEkle() {
+    document.getElementById("popup-duyuru-ekle").classList.toggle("active");
+}
+
 function popUpSozlesme() {
     document.getElementById("popup-sozlesme").classList.toggle("active");
 }

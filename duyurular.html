@@ -142,9 +142,57 @@
         </div>
 
 
+        <!-- duyuru ekle popup -->
+        <div class="popup" id="popup-duyuru-ekle">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="duyuruEkle()">&times;</div>
+                <h1>Duyuru Ekle</h1>
+                <form>
+                    <div class="formDiv">
+                        <div class="rowType1">
+
+                            <!-- baslık -->
+                            <div class="inputDiv">
+                                <span>Duyuru Başlık</span>
+                                <input class="inputt" type="text" required>
+                            </div>
+                            <!-- Soyisim -->
+                            <div class="inputDiv">
+                                <span>Ek Belgeler </span>
+                                <input class="input" type="file" required multiple>
+                            </div>
+                        </div>
+
+                        <div class="rowType2">
+                            <!-- Mesaj -->
+                            <div class="inputDiv">
+                                <span>İçerik</span>
+                                <textarea class="inputt" placeholder="" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="rowType2">
+                            <!-- Onay -->
+                            <div class="inputDiv">
+                                <input type="submit" value="Gönder">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
         <!-- duyurular -->
         <div class="duyurular">
             <h2>Duyurular</h2>
+
+            <!-- duyuru ekle -->
+            <div class="duyuru-ekle">
+                <button onclick="duyuruEkle()" class="duyuru-ekle-buton">Duyuru Ekle</button>
+            </div>
+
+
             <!-- duyuru 1-2 -->
             <div class="altSatir"></div>
             <div class="row">
@@ -247,7 +295,9 @@
                 </div>
             </div>
 
+
         </div>
+
 
     </div>
 
