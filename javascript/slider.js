@@ -1,6 +1,4 @@
-
-var slider_products = [
-    {
+var slider_products = [{
         image: 'image/nodemcu.jpg',
         link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
     },
@@ -10,6 +8,30 @@ var slider_products = [
     },
     {
         image: 'image/raspberryPi.jpg',
+        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+    },
+    {
+        image: 'image/servo-motor.jpg',
+        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+    },
+    {
+        image: 'image/dc-motor.png',
+        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+    },
+    {
+        image: 'image/fircasiz-motor.jpg',
+        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+    },
+    {
+        image: 'image/bluetooth-hc06.jpg',
+        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+    },
+    {
+        image: 'image/arduino-hc-sr04-mesafe-sensor.jpg',
+        link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
+    },
+    {
+        image: 'image/hc-sr501-pir-sensoru.jpg',
         link: 'http://www.webcebir.com/170-javascript-dom-erisim-yontemleri-dersi.html'
     },
 ];
@@ -29,7 +51,7 @@ init(settings);
 
 function init(settings) {
     var prev;
-    interval = setInterval(function () {
+    interval = setInterval(function() {
         if (settings.random) {
             // random index
             do {
@@ -65,13 +87,13 @@ function showSlide(i) {
 }
 
 // önceki resim
-document.querySelector('.slider-previous').addEventListener('click', function () {
+document.querySelector('.slider-previous').addEventListener('click', function() {
     index--;
     showSlide(index);
 });
 
 // sonraki resim
-document.querySelector('.slider-next').addEventListener('click', function () {
+document.querySelector('.slider-next').addEventListener('click', function() {
     index++
     showSlide(index);
 });
