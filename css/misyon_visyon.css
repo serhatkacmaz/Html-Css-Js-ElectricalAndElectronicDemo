@@ -1,12 +1,14 @@
 #mission_vision {
     width: auto;
-    margin: 30px auto;
+    margin: 120px auto;
+    text-align: center;
+    align-items: center;
 }
 
-#mission_vision  p {
+#mission_vision p {
     font-size: 19px;
     padding-left: 100px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
 
@@ -23,5 +25,4 @@
     #mission_vision article {
         flex-direction: column;
     }
-
 }
