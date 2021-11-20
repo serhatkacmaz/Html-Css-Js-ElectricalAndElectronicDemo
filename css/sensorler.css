@@ -1,11 +1,10 @@
 section {
-    margin: 110px auto;
     display: flex;
     justify-content: space-evenly;
+    margin: 110px auto;
     flex-wrap: wrap;
     position: static;
 }
-
 
 .altSatir {
     flex-basis: 100%;
@@ -82,6 +81,7 @@ section {
 
 /* IMAGE OVERLAY TEXT EKLEME -- END */
 
+
 /* urun detay start */
 
 .container {
@@ -115,24 +115,35 @@ section {
 }
 
 .detail-body {
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .black-label {
-    text-align: center;
+    text-align: left;
     width: 80%;
 }
 
 .black-label p {
     margin-top: 30px;
     margin-left: 10%;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 600;
     color: gray;
     width: 70%;
     text-align: justify;
+}
+
+.black-label ul {
+    text-align: left;
+    list-style-type: circle;
+}
+
+
+.black-label h1 {
+    text-align: left;
 }
 
 .title {
